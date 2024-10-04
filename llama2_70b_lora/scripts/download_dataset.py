@@ -1,3 +1,6 @@
+# Adapted from:
+# https://github.com/mlcommons/training_results_v4.0/blob/main/Oracle/benchmarks/llama2_70b_lora/implementations/BM.GPU.H100.8/scripts/download_dataset.py
+
 import argparse
 from huggingface_hub import snapshot_download
 
