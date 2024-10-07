@@ -1,0 +1,1 @@
+Libraries in this folder were copied from this folder: https://github.com/mlcommons/training_results_v4.0/tree/main/Oracle/benchmarks/llama2_70b_lora/implementations/BM.GPU.H100.8

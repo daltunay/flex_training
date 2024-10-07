@@ -17,7 +17,7 @@
 : "${LOGGER:=""}"
 
 readonly node_rank="${SLURM_NODEID:-0}"
-readonly local_rank="${LOCAL_RANK:=${SLURM_LOCALID:=${OMPI_COMM_WORLD_LOCAL_RANK:-}}}"
+readonly local_rank="${LOCAL_RANK:=${SLURM_LOCALID:=${OMPI_COMM_WORLD_LOCAL_RANK:-0}}}"
 
 if [ "$LOGGER" = "apiLog.sh" ];
 then
